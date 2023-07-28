@@ -37,6 +37,23 @@
 
 /* Media Query */
 
+@media screen and (max-width: 1200px) {
+  .home .heart {
+    color: #f6358a;
+    position: absolute;
+    left: 50%;
+    transform: translateY(55px) translateX(-5%);
+    -webkit-transform: translateY(55px) translateX(-5%);
+    -moz-transform: translateY(55px) translateX(-5%);
+    -ms-transform: translateY(55px) translateX(-5%);
+    -o-transform: translateY(55px) translateX(-5%);
+  }
+
+  .home .heart i {
+    font-size: 2rem;
+  }
+}
+
 /* ?Laptop */
 @media screen and (max-width: 992px) {
   html {
@@ -46,6 +63,10 @@
   .simply-countdown > .simply-section {
     padding: 50px;
     margin: 7px;
+  }
+
+  .home .heart {
+    display: none;
   }
 }
 
