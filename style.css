@@ -1,0 +1,247 @@
+:root {
+  --blue: #0a6ebd;
+  --bg: #e0e0e0;
+  --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-height: 3000px;
+  scroll-behavior: smooth;
+}
+
+/* Hero */
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(1, 34, 67, 0.735), rgba(0, 0, 0, 0.7)),
+    url(image/background.JPG);
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+}
+
+.hero h1,
+.hero h3,
+.hero h4,
+.hero h5,
+.hero p {
+  text-shadow: var(--shadow);
+}
+
+.hero h1 {
+  font-family: "Meow Script", cursive;
+  font-size: 6rem;
+}
+
+.hero h3 {
+  font-weight: 600;
+}
+
+.hero h4 {
+  letter-spacing: 1rem;
+}
+
+.hero p {
+  font-weight: 600;
+}
+
+.hero .date {
+  letter-spacing: 1rem;
+}
+
+.hero a {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  color: var(--blue);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  color: white;
+  background-color: var(--blue);
+}
+/* Hero */
+
+/* Navbar */
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(3px);
+}
+
+.mynavbar .offcanvas {
+  height: 100vh;
+}
+
+.mynavbar .navbar-brand,
+.offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+}
+
+.mynavbar .nav-link:hover {
+  color: var(--blue);
+}
+
+/* Navbar */
+
+/* Home */
+.home {
+  background-image: url(image/bg2.png);
+  min-height: 100vh;
+  margin-top: -5.2rem;
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.home h2 {
+  color: var(--blue);
+  font-family: "Vibur", cursive;
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.home h3 {
+  color: #21202d;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.home .couple {
+  margin-top: 40px;
+}
+
+.home .couple h3 {
+  font-family: "Sacramento", cursive;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.home .couple img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 40px;
+}
+/* Home */
+
+/* Info */
+.info {
+  background-color: var(--bg);
+  min-height: 100vh;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.info h2 {
+  font-family: "Vibur", cursive;
+  color: var(--blue);
+  font-size: 4rem;
+  font-weight: 500;
+  /* text-shadow: var(--shadow); */
+}
+
+.info h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.info a {
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.info .card-akad {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background: var(--bg);
+  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.info .card-akad h3 {
+  /* text-shadow: var(--shadow); */
+  font-family: "Sacramento", cursive;
+  color: var(--blue);
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.info iframe {
+  width: 100%;
+  height: 350px;
+  border-radius: 30px;
+}
+/* Info */
+
+/* ?Custom Scroll */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 8px;
+}
+/* ?Custom Scroll */
+
+/* !Scroll Top */
+.scrolltop {
+  position: fixed;
+  cursor: pointer;
+  bottom: 30px;
+  right: 30px;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.scrolltop.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.scrolltop i {
+  font-size: 2rem;
+  color: var(--blue);
+  padding: 3px;
+}
+
+.scrolltop:hover i {
+  font-size: 2rem;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  padding: 3px;
+}
+/* !Scroll Top */
