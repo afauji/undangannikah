@@ -37,45 +37,16 @@
 
 /* Media Query */
 
-@media screen and (max-width: 1200px) {
-  .home .heart {
-    color: #f6358a;
-    position: absolute;
-    left: 50%;
-    transform: translateY(55px) translateX(-5%);
-    -webkit-transform: translateY(55px) translateX(-5%);
-    -moz-transform: translateY(55px) translateX(-5%);
-    -ms-transform: translateY(55px) translateX(-5%);
-    -o-transform: translateY(55px) translateX(-5%);
-  }
-
-  .home .heart i {
-    font-size: 2rem;
-  }
-}
-
 /* ?Laptop */
 @media screen and (max-width: 992px) {
-  html {
-    font-size: 75%;
-  }
-
   .simply-countdown > .simply-section {
     padding: 50px;
     margin: 7px;
-  }
-
-  .home .heart {
-    display: none;
   }
 }
 
 /* ?Tablet */
 @media screen and (max-width: 768px) {
-  html {
-    font-size: 70%;
-  }
-
   .simply-countdown > .simply-section {
     padding: 40px;
     margin: 6px;
@@ -84,15 +55,6 @@
 
 /* ?Mobile Phone */
 @media screen and (max-width: 475px) {
-  html {
-    font-size: 65%;
-  }
-
-  .home,
-  .info {
-    min-height: 78vh;
-  }
-
   .simply-countdown > .simply-section {
     padding: 35px;
     margin: 5px;
