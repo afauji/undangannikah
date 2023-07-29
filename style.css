@@ -80,12 +80,11 @@ body {
   backdrop-filter: blur(3px);
 }
 
-.mynavbar .offcanvas {
+/* .mynavbar .offcanvas {
   height: 100vh;
-}
+} */
 
-.mynavbar .navbar-brand,
-.offcanvas-title {
+.mynavbar .navbar-brand {
   font-family: "Sacramento", cursive;
   font-size: 2.4rem;
   font-weight: 600;
