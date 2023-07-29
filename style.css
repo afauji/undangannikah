@@ -145,7 +145,7 @@ body {
   border-radius: 40px;
 }
 
-.home .heart {
+/* .home .heart {
   color: #f6358a;
   position: absolute;
   left: 50%;
@@ -157,7 +157,7 @@ body {
 }
 .home .heart i {
   font-size: 3rem;
-}
+} */
 /* Home */
 
 /* Info */
@@ -260,7 +260,7 @@ body {
 
 /* Media Query */
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
   .home .heart {
     color: #f6358a;
     position: absolute;
@@ -275,7 +275,7 @@ body {
   .home .heart i {
     font-size: 2rem;
   }
-}
+} */
 
 /* ?Laptop */
 @media screen and (max-width: 992px) {
@@ -283,9 +283,9 @@ body {
     font-size: 75%;
   }
 
-  .home .heart {
+  /* .home .heart {
     display: none;
-  }
+  } */
 }
 
 /* ?Tablet */
@@ -299,11 +299,6 @@ body {
 @media screen and (max-width: 475px) {
   html {
     font-size: 65%;
-  }
-
-  .home,
-  .info {
-    min-height: 78vh;
   }
 }
 
