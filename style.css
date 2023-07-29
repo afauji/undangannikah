@@ -129,7 +129,11 @@ body {
 }
 
 .home .couple {
-  margin-top: 40px;
+  margin-top: 50px;
+}
+
+.home .couple .row {
+  margin-bottom: 50px;
 }
 
 .home .couple h3 {
@@ -299,6 +303,11 @@ body {
 @media screen and (max-width: 475px) {
   html {
     font-size: 65%;
+  }
+
+  .home,
+  .info {
+    padding-top: 14rem;
   }
 }
 
