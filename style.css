@@ -125,6 +125,7 @@ body {
   color: #21202d;
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 .home .couple {
@@ -180,6 +181,7 @@ body {
 }
 
 .info h5 {
+  margin-top: 2rem;
   font-size: 1.2rem;
   margin-bottom: 1rem;
 }
@@ -499,10 +501,9 @@ body {
 /* Footer */
 .footer {
   padding-top: 40px;
+  padding-bottom: 25px;
   background-color:#040D12;
   color: #fff;
-  /* border-top-left-radius: 150px;
-  border-top-right-radius: 150px; */
 }
 
 .footer i img {
@@ -515,11 +516,6 @@ body {
 }
 
 @media screen and (max-width: 475px) {
-  /* .footer {
-    border-top-left-radius: 70px;
-    border-top-right-radius: 70px;
-  } */
-
   .footer i img {
     width: fit-content;
     height: 50px;
@@ -531,10 +527,10 @@ body {
 .audio-icon-wrapper {
   width: 2rem;
   height: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   position: fixed;
-  bottom: 2.5rem;
-  left: 2rem;
+  bottom: 5rem;
+  left: 3rem;
   cursor: pointer;
   color: var(--blue);
   animation: rotating 5s linear infinite;
@@ -571,8 +567,8 @@ body {
 .scrolltop {
   position: fixed;
   cursor: pointer;
-  bottom: 2.3rem;
-  right: 2rem;
+  bottom: 4.8rem;
+  right: 3rem;
   transition: all 0.5s ease 0s;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
@@ -588,7 +584,7 @@ body {
 }
 
 .scrolltop i {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--blue);
 }
 
