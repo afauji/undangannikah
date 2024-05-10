@@ -731,6 +731,8 @@
               // tampilkan tombol kirim, hilangkan tombol loading
               btnLoading.classList.toggle('d-none');
               btnKirim.classList.toggle('d-none');
+              form.reset();
+
               Toastify({
                 text: "Konfirmasi kehadiran berhasil terkirim!",
                 offset: {
