@@ -215,7 +215,7 @@ body {
 /* Info */
 
 /* Story */
-.story{
+.story {
   background-image: url(image/bg2.png);
   /* min-height: 100vh; */
   padding-top: 7.5rem;
@@ -231,10 +231,10 @@ body {
   font-weight: 500;
 }
 
-.story span{
+.story span {
   text-transform: uppercase;
   font-size: 1.1rem;
-  font-weight:600;
+  font-weight: 600;
   letter-spacing: 1px;
   display: block;
   margin-bottom: 1rem;
@@ -245,7 +245,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.story h4{
+.story h4 {
   color: var(--blue);
   font-weight: 600;
 }
@@ -258,7 +258,7 @@ body {
 }
 
 .timeline::before {
-  content: '';
+  content: "";
   top: 0;
   bottom: 0;
   position: absolute;
@@ -274,7 +274,7 @@ body {
 
 .timeline li::before,
 .timeline li::after {
-  content: '';
+  content: "";
   display: table;
 }
 
@@ -306,7 +306,7 @@ body {
 }
 
 .timeline li .timeline-panel::before {
-  content: '';
+  content: "";
   display: inline-block;
   position: absolute;
   border-top: 15px solid transparent;
@@ -318,7 +318,7 @@ body {
 }
 
 .timeline li .timeline-panel::after {
-  content: '';
+  content: "";
   position: absolute;
   display: inline-block;
   border-top: 14px solid transparent;
@@ -376,7 +376,7 @@ body {
   margin-bottom: 1rem;
 }
 
-.gallery .card{
+.gallery .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -386,7 +386,7 @@ body {
   margin-right: 0.8rem;
 }
 
-.gallery .card img{
+.gallery .card img {
   display: block;
   width: 100%;
   height: 100%;
@@ -426,13 +426,13 @@ body {
 .rsvp {
   padding-top: 10rem;
   padding-bottom: 8rem;
-  background-color: #040D12;
+  background-color: #040d12;
 }
 
 .rsvp h2 {
   font-family: "Vibur", cursive;
   color: var(--blue);
-  font-size: 4rem; 
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -502,7 +502,7 @@ body {
 .footer {
   padding-top: 40px;
   padding-bottom: 25px;
-  background-color:#040D12;
+  background-color: #040d12;
   color: #fff;
 }
 
@@ -588,7 +588,7 @@ body {
   color: var(--blue);
 }
 
-.scrolltop:hover i{
+.scrolltop:hover i {
   color: #30a5ff;
 }
 /* !Scroll Top */
@@ -705,12 +705,7 @@ body {
 
   .timeline li .timeline-panel::after {
     top: 31px;
-  } 
+  }
 }
 
 /* Media Query */
-
-
-
-
-
