@@ -9,4 +9,3 @@ if (param === null || !param) {
 } else {
   document.write(param);
 }
-
