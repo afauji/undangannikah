@@ -538,7 +538,7 @@ body {
 
 @media screen and (max-width: 475px) {
   .filter img {
-    width: 100px;
+    width: 150px;
   }
 }
 /* Filter */
