@@ -530,6 +530,17 @@ body {
 .filter a {
   letter-spacing: 0.1rem;
 }
+
+.filter img {
+  width: 270px;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 475px) {
+  .filter img {
+    width: 60%;
+  }
+}
 /* Filter */
 
 /* Footer */
