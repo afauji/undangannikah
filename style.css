@@ -20,14 +20,14 @@ body {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(rgba(1, 34, 67, 0.735), rgba(0, 0, 0, 0.7)),
-    url(image/background.JPG);
+    url(image/background.webp);
   z-index: -1;
   background-size: cover;
   background-position: center;
-  animation: change 10s infinite ease-in-out;
+  /* animation: change 10s infinite ease-in-out; */
 }
 
-@keyframes change {
+/* @keyframes change {
   0% {
     background-image: linear-gradient(
         rgba(1, 34, 67, 0.735),
@@ -49,7 +49,7 @@ body {
       ),
       url("../../image/story/Story-1.jpg");
   }
-}
+} */
 
 .hero {
   position: relative;
