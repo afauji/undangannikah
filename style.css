@@ -1,5 +1,6 @@
 :root {
-  --blue: #0a6ebd;
+  /* --blue: #0a6ebd; */
+  --blue: #ff407d;
   --bg: #e0e0e0;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
