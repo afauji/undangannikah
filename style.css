@@ -20,8 +20,9 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(rgba(1, 34, 67, 0.735), rgba(0, 0, 0, 0.7)),
-    url(image/leha-bilal1.jpg);
+  background-image:
+    linear-gradient(rgba(1, 34, 67, 0.735), rgba(0, 0, 0, 0.7)),
+    url(image/tiara-arya\ \(1\).jpeg);
   z-index: -1;
   background-size: cover;
   background-position: center;
@@ -223,7 +224,9 @@ body {
   height: 100%;
   border-radius: 30px;
   background: var(--bg);
-  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  box-shadow:
+    15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -519,7 +522,9 @@ body {
   height: 100%;
   border-radius: 30px;
   background: var(--bg);
-  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  box-shadow:
+    15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -549,7 +554,9 @@ body {
   height: 100%;
   border-radius: 30px;
   background: var(--bg);
-  box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+  box-shadow:
+    15px 15px 30px #bebebe,
+    -15px -15px 30px #ffffff;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
